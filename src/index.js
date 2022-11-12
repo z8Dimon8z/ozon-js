@@ -1,5 +1,10 @@
 import card from "./modules/card";
-import second from "./modules/second";
+import load from "./modules/load";
+import search from "./modules/search";
+import catalog from "./modules/catalog";
+
 
 card();
-second();
+load();
+search();
+catalog();

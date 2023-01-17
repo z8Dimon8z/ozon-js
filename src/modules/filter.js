@@ -14,3 +14,19 @@ export const categoryFilter = (goods, text) => {
   });
 
 };
+
+export const priceFilter = (goods, min, max) => {
+  
+  return goods.filter((goodsItem) => {
+    if(min === '' && max === ''){
+      return goodsItem;
+    } else if(min !== '' && max !== ''){
+
+    } else if(min !== '' && max === ''){
+
+    } else if(min === '' && max !== ''){
+      
+    }
+  });
+
+};
